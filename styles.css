@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 :root {
-    --primary-color: #e4588be6;
-    --secondary-color: #4a61e2cc;
+    --primary-color: #1acfefe6;
+    --secondary-color: #fa4040cc;
 }
 
 body {
@@ -15,33 +15,12 @@ h1,p {
     padding: 0;
     margin: 0;
 }
-.calc {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    /* border-radius: 0.5rem; */
-}
-input {
-    border-radius: 0.5rem;
-}
+
 header {
-    background-color: #071077;
-}
-p{
-    color: yellow;
-    margin: 1rem;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.heading{
-    color: black;
-    text-decoration: underline;
+    background-color: #6773f9;
 }
 
 .header-heading {
-    color: black;
     padding: 0.5rem 0.5rem 0 0.5rem;
     font-size: 2.5rem;
     letter-spacing: 1px;
@@ -50,16 +29,9 @@ p{
 .header-para {
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem 1rem 0.5rem;
-    text-decoration: underline red;
+    text-decoration: underline rgb(242, 84, 84);
 }
-label {
-    font-weight: bold;
-    color: black;
-}
-input {
-    width: 9rem;
-    height: 1.5rem;
-}
+
 main {
     display: flex;
     flex-direction: column;
@@ -114,13 +86,8 @@ main {
     box-shadow: none;
     transform: translateY(3px);
 }
-#check-button {
-    margin: 1rem;
-    width: 5rem;
-    height: 2rem;
-    border-radius: 2rem;
-    color: black;
-    font-weight: bold;
+.check-button {
+    margin-bottom: 1rem;
 }
 
 .divider {
@@ -179,9 +146,6 @@ td {
     padding: 0.5rem 0.5rem;
     border-radius: 0.8rem;
 }
-h2 {
-    color: black;
-}
 
 @media (max-width:646px) {
     .bill input, .cash input {
@@ -193,7 +157,6 @@ h2 {
     table {
         font-size: 1.5rem;
         width: 100%;
-        
     }
     th, td {
         line-height: 1.8rem;
