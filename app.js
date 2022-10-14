@@ -4,6 +4,7 @@ const nextBtn = document.querySelector('.next-button')
 const checkBtn = document.querySelector('.check-button')
 const billErrorMessage = document.querySelector('.bill-error')
 const cashErrorMessage = document.querySelector('.cash-error')
+const notesList = document.querySelectorAll('.no-of-notes')
 
 
 
@@ -49,6 +50,8 @@ checkBtn.addEventListener('click',() => {
     table.style.display = 'none'
   }
 })
+
+ 
 
 // checking the Cash given:
 function checkCashGiven() {
